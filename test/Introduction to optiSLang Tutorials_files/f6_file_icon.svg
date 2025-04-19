@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   enable-background="new 0 -2.25 44 48"
+   viewBox="0 -2.25 44 48"
+   height="48px"
+   width="44px"
+   y="0px"
+   x="0px"
+   sodipodi:docname="f6_file_icon.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs7" />
+<sodipodi:namedview
+   inkscape:document-rotation="0"
+   inkscape:zoom="5.4252874"
+   inkscape:cx="22"
+   inkscape:cy="21.75"
+   inkscape:window-maximized="1"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:current-layer="Layer_1"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   showgrid="false"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   id="namedview9">
+	</sodipodi:namedview>
+<line
+   style="stroke:#ffb71b;stroke-opacity:1"
+   y2="12.75"
+   x2="35.813"
+   y1="12.75"
+   x1="10.313"
+   stroke-width="3"
+   stroke="#F3B700"
+   fill="none"
+   id="line3" />
+<line
+   style="stroke:#ffb71b;stroke-opacity:1"
+   y2="21.75"
+   x2="35.813"
+   y1="21.75"
+   x1="10.313"
+   stroke-width="3"
+   stroke="#F3B700"
+   fill="none"
+   id="line5" />
+<line
+   style="stroke:#ffb71b;stroke-opacity:1"
+   y2="30.75"
+   x2="35.813"
+   y1="30.75"
+   x1="10.313"
+   stroke-width="3"
+   stroke="#F3B700"
+   fill="none"
+   id="line7" />
+</svg>

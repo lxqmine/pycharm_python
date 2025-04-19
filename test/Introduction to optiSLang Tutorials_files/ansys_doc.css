@@ -1,0 +1,108 @@
+/*IMPORTANT: This sheet contains ONLY those styles that are needed on Help Site doc pages generated from DITA or Docbook */
+
+@import url(ansys_help_core.css);
+
+body {
+  display: none;
+}
+
+.main-content{overflow-y:auto;height:calc(100vh - 3rem);min-height:200px}
+
+h1.title:before,h2.title:before{content:url(../../media/icon__slash.svg) '\00a0\00a0';vertical-align:-4px;}
+
+/*TOC Display*/
+#call_big_toc a,#call_big_toc li span, #call_big_toc a .filename strong{color:var(--ansysLightText);font-size:1rem;}
+#call_big_toc a.toc_active{border-bottom:1px solid var(--ansysGold);}
+#killtoc,#extoc{background-color:transparent}
+#killtoc:hover,#extoc:hover,.big_toc_container dt:hover{background-color:var(--ansysCarbonBlack);transition:background-color .3s ease-out;}
+#killtoc,#extoc,.text-center.hpblock{margin:0px;}
+
+/*NAV*/
+#page_language select {width:auto;}
+a.book_link {display:inline;padding:14px 0 15px 0}
+.top-bar .left{z-index:1;postion:relative;}
+.top-bar .right{z-index:2;postion:absolute;right:0%;}
+
+/*ToC Toggle images*/ 
+.extogg.has_child:before{content:url(../../media/collapsed.svg) '\00a0\00a0'}
+.extogg.has_child:hover:before{content:url(../../media/expandme.svg) '\00a0\00a0'}
+span.has_childY:hover:before, span.show_list:before, .collapse:before,.extogg.has_child.expanded:before{content:url(../../media/expanded.svg) '\00a0\00a0'}
+.extogg.has_child.expanded:hover:before{content:url(../../media/collapseme.svg) '\00a0\00a0'}
+.mc_col:before{content:url(../../media/mc_col_collapsed.svg) '\00a0\00a0'}
+.mc_exp:before{content:url(../../media/mc_col_expanded.svg) '\00a0\00a0'}
+.toc_container .show_children:not(.expanded):before,.toc_container dt.has_child:before,.toc_container span.has_child:before{content:url(../../media/collapsed.svg) '\00a0\00a0'}
+.show_children:not(.expanded):hover:before,dt.has_child:hover:before,span.has_child:hover:before,span.has_child:before, .show_children:not(.collapse):before,.show_children:not(.expanded):before,dt.has_child:before,span.has_child:before{content:url(../../media/expandme.svg) '\00a0\00a0'}
+span.has_childY:hover:before, span.show_list:before, .collapse:before,.toc_container span.show_list:before,.show_children.expanded:before,dt.has_child.expanded:before{content:url(../../media/expanded.svg) '\00a0\00a0'}
+.show_children.expanded:hover:before,dt.has_child.expanded:hover:before{content:url(../../media/collapseme.svg) '\00a0\00a0'}
+a#all_button[aria-expanded="true"]:before,a#fav_button[aria-expanded="true"]:before{content:url(../../media/collapseme.svg) '\00a0\00a0'}
+a#all_button[aria-expanded="false"]:before,a#fav_button[aria-expanded="false"]:before{content:url(../../media/expandme.svg) '\00a0\00a0'}
+
+/*FRAMES AND SIZING*/
+.docs-nav {
+  border-top:1px solid var(--ansysLightText);
+  overflow: auto;
+  height: calc(100vh - 3rem);
+  background: var(--ansysCharBlack);
+  padding-top: 1rem;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 100%; }
+    	
+
+/*MEDIA QUERIES*/
+@media (min-width:0px) and (max-width:1000px){
+.video_frame{margin-left:1rem;position:absolute;width:320px;height:180px;left:0}
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #doc_page, #doc_page * {
+    visibility: visible;
+  }
+  #doc_page {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.docs-nav::-webkit-scrollbar {
+  width: .6em;
+}
+ 
+.docs-nav::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.docs-nav::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 8px;
+}
+
+@media print{
+a[href]:after{content:none !important;}
+} 
+@media only screen and (max-width:1300px){
+.search-input,#user_query{width:18rem}
+}
+@media (min-width:0px) and (max-width:1000px){
+.search-input,#user_query{width:10rem}
+}
+@media (min-width:700px) and (max-width:1000px){
+.searchdrop {position:absolute;margin-left:-22rem}
+}
+@media (min-width:1400px){
+.searchdrop {position:absolute;margin-left:-40rem}
+}
+@media (max-width:700px){
+.searchdrop {position:absolute;margin-left:-18rem}
+header{padding:0}
+.top-bar{overflow:visible}
+h1,h1.title,h2,h2.title,h3,h3.title,h4,h4.title,h5,h5.title,h6,h6.title,h7,h7.title{font-size:1rem}
+}
+@media only screen and (max-width:400px){
+.searchdrop {position:absolute;margin-left:-10rem}
+.main-content,.main-page-content,.prod-page-content{min-height:200px}
+}

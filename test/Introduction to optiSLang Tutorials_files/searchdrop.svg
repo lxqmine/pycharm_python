@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   enable-background="new 7.313 -3.835 17.188 28.335"
+   viewBox="7.313 -3.835 17.188 28.335"
+   height="28.335px"
+   width="17.188px"
+   y="0px"
+   x="0px"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="searchdrop.svg"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs7" />
+<sodipodi:namedview
+   inkscape:document-rotation="0"
+   inkscape:window-maximized="1"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:current-layer="Layer_1"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   showgrid="false"
+   borderopacity="1"
+   objecttolerance="10"
+   inkscape:zoom="19.666667"
+   gridtolerance="10"
+   inkscape:cx="6"
+   inkscape:cy="6"
+   guidetolerance="10"
+   id="namedview6">
+	</sodipodi:namedview>
+<polygon
+   style="fill:#ffb71b;fill-opacity:1"
+   points="15.469,12.895 10.969,7.27 19.969,7.27 "
+   fill="#F2B71B"
+   id="polygon4139" />
+<line
+   style="stroke:#ffb71b;stroke-opacity:1"
+   id="line4"
+   y2="23.688"
+   x2="23.625"
+   y1="-3.438"
+   x1="23.625"
+   stroke-width="0.5"
+   stroke="#F2B71B"
+   fill="none" />
+</svg>
